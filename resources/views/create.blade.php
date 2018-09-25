@@ -14,10 +14,10 @@
 
 <form action="/public/contact" method="post">
     @method('POST')
-    Enter first name:<input name="fname" type="text"><br>
-    Enter last name:<input name="lname" type="text"><br>
-    Enter email:<input name="email" type="text"><br>
-    Enter phone number:<input name="phonenum" type="text"><br>
+    Enter first name:<input name="fname" type="text" required><br>
+    Enter last name:<input name="lname" type="text" required><br>
+    Enter email:<input name="email" type="text" required><br>
+    Enter phone number:<input name="phonenum" type="text" required><br>
 
     <button type="submit">Add to database</button></form>
 </body>
